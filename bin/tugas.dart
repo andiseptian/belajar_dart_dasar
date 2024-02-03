@@ -59,9 +59,6 @@ void hitungMBI() {
   stdout.write("Tinggi badan: ");
   var nilaiA = stdin.readLineSync();
   var a = double.parse('$nilaiA');
-  // stdout.write("tinggi badan: ");
-  // var nilaiB = stdin.readLineSync();
-  // var b = double.parse('$nilaiB');
 
   double hasil;
   hasil = ((a - 100) - ((a - 100) * 10 / 100));
